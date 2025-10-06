@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<style>
+    body {
+        color: white;
+        background-color: #1f0000;
+    }
+
+    .center-text {
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .box {
+        border: 2px solid black;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: #1a1c2b;
+        flex: 1 1 300px; /* Grow, shrink, min-width */
+        min-width: 250px;
+    }
+</style>
+
+<div class="container">
+    <div class="box">
+        <p class="center-text">test</p>
+    </div>
+</div>
